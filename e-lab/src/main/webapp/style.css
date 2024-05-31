@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+body {
+    background: url('pathology-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    border-top: 2px solid #4CAF50;
+}
+
+.overview, .patient-data, .reports, .settings {
+    margin-bottom: 20px;
+}
+
+.modal-header {
+    background: #4CAF50;
+    color: white;
+}
+
+.modal-footer {
+    justify-content: space-between;
+}
